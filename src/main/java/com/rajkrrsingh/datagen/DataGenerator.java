@@ -8,7 +8,12 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.sql.Timestamp;
 import java.util.Random;
-
+/*create table index_table (study_id string,visit_code string,visit_num int,usubject_id string,patient_id string,subev int,rsn int, 
+visitd timestamp,event_label string,eval_seq string,test_name string,lab_test_e string,lab string,lab_name string, 
+fast_ynl string,acc_no string,spec_id string,lab_val_e string,nr_flag string,nr_chk decimal(38,5),lab_test string, 
+lab_val decimal(38,5),norm_low decimal(38,5),norm_high decimal(38,5),norm_unit string,us_std_val decimal(38,5),us_std_low decimal(38,5), 
+us_std_high decimal(38,5),us_std_unit string,wbc_val decimal(38,5),abs_val decimal(38,5),lab_d timestamp,lab_tm string,lab_sdy decimal(38,5), 
+source string,etl_created_date timestamp,etl_updated_date timestamp)*/
 public class DataGenerator{
 
   private static SecureRandom secureRandom = new SecureRandom();
